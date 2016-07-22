@@ -25,7 +25,7 @@ public class SimpleJdbcTemplateApp {
         books.add(book2);
         books.add(book3);
 
-       // bookSimpleDAO.insertBatch(books);
+        // bookSimpleDAO.insertBatch(books);
 
         bookSimpleDAO.delete(book1);
 

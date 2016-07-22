@@ -2,7 +2,6 @@ package com.github.Karina_Denisevich.spring_template.example.book.dao.impl;
 
 import com.github.Karina_Denisevich.spring_template.example.book.dao.BookDAO;
 import com.github.Karina_Denisevich.spring_template.example.book.model.Book;
-import com.github.Karina_Denisevich.spring_template.example.book.model.BookRowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.simple.ParameterizedBeanPropertyRowMapper;
 import org.springframework.jdbc.core.simple.SimpleJdbcDaoSupport;
