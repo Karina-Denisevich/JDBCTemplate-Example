@@ -12,7 +12,6 @@ import java.util.List;
 
 public class JdbcTemplateBookDao extends JdbcDaoSupport implements BookDAO {
 
-    //insert
     @Override
     public void insert(Book book) {
 
