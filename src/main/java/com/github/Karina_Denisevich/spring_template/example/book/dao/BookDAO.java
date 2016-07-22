@@ -10,11 +10,9 @@ public interface BookDAO {
 
     void insertBatch(List<Book> books);
 
-    void update(Book book);
-
     void delete(Book book);
 
     Book getById(Integer id);
 
-    List<Book> getAll();
+    List getAll();
 }

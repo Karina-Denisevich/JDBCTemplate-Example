@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e711d9fe-d66d-47fd-b65b-4672416d7ef2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcTemplateBookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/BookRowMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBCSpringTemplate.iml" afterPath="$PROJECT_DIR$/JDBCSpringTemplate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JDBCTemplateApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JDBCTemplateApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Spring-Module.xml" afterPath="$PROJECT_DIR$/src/main/resources/Spring-Module.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcTemplateBookDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcTemplateBookDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/book/Spring-Book.xml" afterPath="$PROJECT_DIR$/src/main/resources/book/Spring-Book.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcBookDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/SimpleJdbcTemplateBookDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/SimpleJdbcBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/NamedParameterJdbcTemplateDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/SimpleDDBCTemplateApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/SimpleJDBCTemplateApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml" afterPath="$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml" />
     </list>
     <ignored path="JDBCSpringTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JdbcTemplateApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDBCSpringTemplate.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBCSpringTemplate.iml">
+      <file leaf-file-name="SimpleJdbcTemplateApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/SimpleJdbcTemplateApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -79,8 +69,18 @@
       <file leaf-file-name="Spring-Module.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-Module.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.3">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spring-DataSource.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -89,18 +89,8 @@
       <file leaf-file-name="Spring-Book.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/book/Spring-Book.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NamedParameterJdbcTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/NamedParameterJdbcTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,17 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -139,11 +119,26 @@
       <file leaf-file-name="JdbcTemplateBookDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcTemplateBookDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48979592">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.8028169">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <marker date="1469112307689" expanded="true" signature="614:689" placeholder="INSERT INTO BOOK... " />
-                <marker date="1469112307689" expanded="true" signature="888:964" placeholder="INSERT INTO CUSTOMER... " />
+                <marker date="1469186201136" expanded="true" signature="700:775" placeholder="INSERT INTO BOOK... " />
+                <marker date="1469186201136" expanded="true" signature="974:1050" placeholder="INSERT INTO CUSTOMER... " />
+                <marker date="1469186201136" expanded="true" signature="1620:1652" placeholder="DELETE FROM " />
+                <marker date="1469186201136" expanded="true" signature="1808:1842" placeholder="SELECT * FRO... book" />
+                <marker date="1469186201136" expanded="true" signature="2022:2040" placeholder="SELECT * FRO... BOOK" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookRowMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/BookRowMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,15 +178,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/App.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Spring-Module.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JDBCTemplateApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JdbcTemplateApp.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/book/Spring-Book.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcBookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/book/Spring-Book.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/BookRowMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JdbcTemplateApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcTemplateBookDao.java" />
       </list>
     </option>
@@ -244,8 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -490,7 +486,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -896,12 +892,13 @@
       <workItem from="1469015338137" duration="991000" />
       <workItem from="1469018935976" duration="891000" />
       <workItem from="1469094513724" duration="6496000" />
-      <workItem from="1469111591840" duration="761000" />
+      <workItem from="1469111591840" duration="1348000" />
+      <workItem from="1469178610853" duration="3165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9139000" />
+    <option name="totallyTimeSpent" value="12891000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -914,7 +911,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.84114975" order="6" side_tool="false" content_ui="tabs" />
@@ -923,11 +920,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.7881997" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39379084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.8895613" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -941,6 +938,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1025,8 +1030,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <marker date="1469112307689" expanded="true" signature="614:689" placeholder="INSERT INTO BOOK... " />
-            <marker date="1469112307689" expanded="true" signature="888:964" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1469186201136" expanded="true" signature="700:775" placeholder="INSERT INTO BOOK... " />
+            <marker date="1469186201136" expanded="true" signature="974:1050" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1469186201136" expanded="true" signature="1620:1652" placeholder="DELETE FROM " />
+            <marker date="1469186201136" expanded="true" signature="1808:1842" placeholder="SELECT * FRO... book" />
+            <marker date="1469186201136" expanded="true" signature="2022:2040" placeholder="SELECT * FRO... BOOK" />
           </folding>
         </state>
       </provider>
@@ -1155,14 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/SimpleJdbcTemplateApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../JDBCTemplateExample/JDBCTemplateExample.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1186,14 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9ab732a8-0ae1-4581-aff2-6df70859fdef/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1201,10 +1193,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/NamedParameterJdbcTemplateDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/NamedParameterJdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1217,18 +1209,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/NamedParameterJdbcTemplateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1243,24 +1227,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-Module.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.3">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/NamedParameterJdbcTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/Spring-DataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/book/Spring-Book.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/model/BookRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/SimpleJdbcTemplateApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1268,7 +1286,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/common/JdbcTemplateApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1277,11 +1295,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/Karina_Denisevich/spring_template/example/book/dao/impl/JdbcTemplateBookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48979592">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.8028169">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <marker date="1469112307689" expanded="true" signature="614:689" placeholder="INSERT INTO BOOK... " />
-            <marker date="1469112307689" expanded="true" signature="888:964" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1469186201136" expanded="true" signature="700:775" placeholder="INSERT INTO BOOK... " />
+            <marker date="1469186201136" expanded="true" signature="974:1050" placeholder="INSERT INTO CUSTOMER... " />
+            <marker date="1469186201136" expanded="true" signature="1620:1652" placeholder="DELETE FROM " />
+            <marker date="1469186201136" expanded="true" signature="1808:1842" placeholder="SELECT * FRO... book" />
+            <marker date="1469186201136" expanded="true" signature="2022:2040" placeholder="SELECT * FRO... BOOK" />
           </folding>
         </state>
       </provider>

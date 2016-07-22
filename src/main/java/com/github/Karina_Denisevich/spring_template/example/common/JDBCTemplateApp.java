@@ -25,6 +25,15 @@ public class JdbcTemplateApp {
         books.add(book2);
         books.add(book3);
 
-        bookDAO.insertBatch(books);
+       // bookDAO.insertBatch(books);
+
+        bookDAO.delete(book1);
+
+        System.out.println("Book with id =3 : " + bookDAO.getById(3));
+
+        for(Book b : bookDAO.getAll()){
+            System.out.println(b.toString());
+        }
+
     }
 }
